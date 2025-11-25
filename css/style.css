@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+image {
+  line-height: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/*end of common css*/
+/* navbar start */
+.navbar-area {
+  box-shadow: 1px 6px 13px -1px rgba(0, 0, 0, 0.27);
+}
+.nav-link {
+  margin-right: 20px;
+  font-size: 20px;
+  color: #000;
+}
+.navbar-brand {
+  font-size: 40px;
+  font-weight: 800;
+}
+/* navbar end */
+/* hero-section start */
+.hero-section {
+  max-height: 800px;
+  margin-top: 100px;
+}
+.hero-txt {
+  padding: 150px 0;
+}
+.hero-txt h1 {
+  font-size: 80px;
+  font-weight: 800;
+  color: #5ec8b6;
+}
+.hero-txt h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.hero-txt button {
+  padding: 15px 25px;
+  background-color: #fff;
+  margin-top: 30px;
+  color: #53aa8a;
+  border: 3px solid #53aa8a;
+  font-size: 18px;
+  font-weight: 800px;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+}
+.hero-txt button:hover {
+  background-color: #53aa8a;
+  border: 3px solid #53aa8a;
+  color: #000;
+}
+/* hero-section end */
+/* about-me section start */
+.title {
+  text-align: center;
+  margin: 50px 0 20px 0;
+}
+.title span {
+  background-color: #9ee2d7;
+  padding: 3px 10px;
+}
+.title h3 {
+  font-size: 40px;
+  padding: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #212529;
+}
+.about-section-area {
+  margin-bottom: 100px;
+}
+.about-left h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.about-left h3 span {
+  font-weight: 700;
+}
+.about-left p {
+  line-height: 34px;
+  font-size: 20px;
+}
+.about-right {
+  /* padding: 60px 20px; */
+  text-align: center;
+}
+.about-right h3 {
+  font-size: 90px;
+  font-weight: 600;
+  color: #4c4d4d;
+}
+.about-right .color {
+  text-align: center;
+  padding-top: 35px;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #9ee2d7;
+  margin-bottom: 20px;
+}
+/* about-me section end */
+/* service-part start */
+#service-section-area {
+  background-color: #f8f9fa;
+}
+.service-col {
+  padding: 50px;
+  text-align: center;
+}
+.service-col i {
+  font-size: 50px;
+  color: #9ee2d7;
+}
+.service-col h3 {
+  padding: 20px 0;
+}
+/* service-part end */
+/* resume part start */
+#project-part-section {
+  background-color: #f8f9fa;
+  padding-bottom: 70px;
+}
+.my-education h3,
+.my-skill h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.edu-col {
+  padding-left: 30px;
+  border-left: 2px solid #9ee2d7;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+.edu-col h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.edu-col h4 {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.progress-col {
+  margin-bottom: 40px;
+}
+.progress-txt {
+  display: flex;
+  justify-content: space-between;
+  background-color: none;
+  color: #000;
+  height: 35px;
+}
+.progress-bar {
+  background-color: #e9ecef;
+  height: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+.progress-line {
+  background-color: #9ee2d7;
+  height: 100%;
+  border-radius: 5px;
+}
+.cv-btn {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.cv-btn button {
+  padding: 15px 25px;
+  background-color: #fff;
+  margin-top: 30px;
+  color: #53aa8a;
+  border: 3px solid #53aa8a;
+  font-size: 18px;
+  font-weight: 800px;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+}
+.cv-btn button:hover {
+  background-color: #53aa8a;
+  border: 3px solid #53aa8a;
+  color: #000;
+}
+.card {
+  margin-bottom: 30px;
+  position: relative;
+  transition: all 0.5s linear;
+  -webkit-box-shadow: 8px 6px 17px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 8px 6px 17px 1px rgba(0, 0, 0, 0.4);
+}
+.hover-txt {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #53aa8aaa;
+  top: 0;
+  left: 0;
+  display: none;
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+  cursor: pointer;
+}
+.card:hover .hover-txt {
+  display: block;
+  transition: all 0.3s linear;
+}
+/* resume part end */
+/* hire me section start */
+#hire-me-section {
+  max-width: 100%;
+  max-height: 500px;
+  background: url(../image/test-bg.jpg) no-repeat right top;
+  background-size: cover;
+  padding: 150px;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 100px;
+}
+.hire-me-part {
+  text-align: center;
+}
+.hire-me-part button {
+  padding: 15px 25px;
+  background-color: #53aa8a;
+  margin-top: 30px;
+  color: #000;
+  border: 3px solid #53aa8a;
+  font-size: 18px;
+  font-weight: 800px;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+}
+.hire-me-part button:hover {
+  border: 3px solid #53aa8a;
+  background-color: #fffffffe;
+  color: #000;
+}
+.hire-me-part h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+#hire-me-section::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #212121a0;
+  z-index: -1;
+}
+/* hire me section END */
+/* testimonial part start */
+#testimonial-section {
+}
+
+.test-card {
+  text-align: center;
+  background-color: #f2f2f2;
+  margin: 20px;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 2px 5px 18px -3px rgba(71, 68, 68, 0.78);
+}
+.test-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.test-img img {
+  border-radius: 50%;
+}
+/* testimonial part end */
+/* footer-section start */
+#footer-section {
+  background-color: #4c4d4d;
+  padding: 20px;
+  margin-top: 100px;
+}
+.footer-left,
+.footer-right {
+  padding: 30px;
+  margin: 20px;
+  background-color: #e9ecef;
+  border-radius: 20px;
+}
+.footer-left h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.footer-left h3 span {
+  font-weight: 400;
+  margin-left: 10px;
+}
+.footer-left h3 i {
+  padding-right: 25px;
+}
+.icon i {
+  font-size: 30px;
+}
+.footer-right form input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background-color: transparent;
+}
+.input {
+  padding: 20px 0;
+}
+.footer-right form button {
+  padding: 10px 40px;
+  background-color: #53aa8a;
+  margin-top: 30px;
+  color: #000;
+  border: 3px solid #53aa8a;
+  font-size: 18px;
+  font-weight: 800px;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+}
+.footer-right form button:hover {
+  border: 3px solid #53aa8a;
+  background-color: #fffffffe;
+  color: #000;
+}
+.copywrite-area {
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+.copywrite {
+  display: flex;
+  justify-content: space-between;
+}
+/* footer-section end */
